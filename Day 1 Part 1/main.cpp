@@ -12,8 +12,8 @@ int main()
     std::string num1;
     std::string num2;
     std::string totalS;
-    double total;
-    double overall = 0;
+    int total;
+    int overall = 0;
 
     while (std::getline(inputF, textS))
     {
