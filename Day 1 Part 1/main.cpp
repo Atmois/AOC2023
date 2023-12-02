@@ -1,6 +1,7 @@
 #include <iostream>
 #include <fstream>
 #include <algorithm>
+#include <string>
 
 int main()
 {
@@ -29,8 +30,8 @@ int main()
                 }
             }
         }
-        reverse(textS.begin(), textS.end());
         checkRun = true;
+        reverse(textS.begin(), textS.end());
         while (checkRun == true)
         {
             for (int i = 0; i < textS.length(); i++)
@@ -47,7 +48,6 @@ int main()
         checkRun = true;
         totalS = num1 + num2;
         total = std::stod(totalS);
-        std::cout << total << std::endl;
         overall = overall + total;
     }
     std::cout << overall;
